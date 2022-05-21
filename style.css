@@ -1,0 +1,50 @@
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding:16px;
+}
+menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+   }
+.menu{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9fAF8;
+}
+li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+   border-radius: 5%;
+}
+button{
+    color: #3882F6;
+}
+.photo{
+    width:600px;
+    height:350px;
+    border-radius: 5%;
+}
