@@ -1,0 +1,46 @@
+
+body{
+    background-color: black;
+    margin:0%;
+    padding: 0;
+}
+
+.hero{
+    background-color: #1F2936;
+    margin-right: 160px;
+    margin-left:160px;
+   
+
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top:0;
+    margin-left:100px;
+
+    
+    
+}
+
+
+.left-content h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-content h3,
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+p{
+    color:#F9FAF8;
+}
