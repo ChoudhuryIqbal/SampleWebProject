@@ -1,15 +1,28 @@
-
-body{
+body {
     background-color: black;
-    margin:0%;
+    margin: 0%;
     padding: 0;
 }
 
-.hero{
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    margin-right: 94px;
+    padding: 0;
+
+}
+
+.hero {
     background-color: #1F2936;
     margin-right: 160px;
-    margin-left:160px;
-   
+    margin-left: 160px;
+    height: 450px;
+
+
 
 }
 
@@ -17,11 +30,11 @@ body{
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-top:0;
-    margin-left:100px;
+    margin-top: 0;
+    margin-left: 70px;
 
-    
-    
+
+
 }
 
 
@@ -36,11 +49,52 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
-button{
+
+button {
     color: #F9FAF8;
     background-color: #3882F6;
+    border-radius: 2em;
+    box-sizing: border-box;
+    font-weight: 300;
+    text-align: center;
+    height:30px;
+    width:100px;
+
 }
 
-p{
-    color:#F9FAF8;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-content {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+p {
+    color: #F9FAF8;
+}
+
+.imageHolder {
+    margin-top: 40px;
+    margin-right: 100px;
+    height: 300px;
+    background-color: blueviolet;
+    width: 900px;
+
 }
