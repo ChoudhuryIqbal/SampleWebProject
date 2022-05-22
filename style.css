@@ -4,6 +4,15 @@ body {
     padding: 0;
 }
 
+/* ---------------Hero--------------- */
+
+.hero {
+    background-color: #1F2936;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 450px;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
@@ -16,71 +25,12 @@ body {
 
 }
 
-.hero {
-    background-color: #1F2936;
-    margin-right: 160px;
-    margin-left: 160px;
-    height: 450px;
-
-
-
-}
-
-.info-container{
-    background-color: white;
-    margin-right: 160px;
-    margin-left: 160px;
-    height: 400px;
-}
-.quote-container{
-    background-color: #E5E7EB;
-    margin-right: 160px;
-    margin-left: 160px;
-    height: 300px;
-}
-.register-container{
-    background-color:white;
-    margin-right: 160px;
-    margin-left:160px;
-    height: 200px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-   
-
-}
-
-.footer{
-    background-color: #1F2936;
-    text-align: center;
-    margin-right: 160px ;
-    margin-left: 160px;
-    height:50px;
-    padding-top:25px;
-   
-
-}
-.info-container h2{
-    margin-top: 0%;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-top: 0;
     margin-left: 70px;
-
-
-
 }
-
 
 .left-content h2 {
     font-size: 48px;
@@ -101,59 +51,9 @@ button {
     box-sizing: border-box;
     font-weight: 300;
     text-align: center;
-    height:30px;
-    width:100px;
-
+    height: 30px;
+    width: 100px;
 }
-.quote p{
-    color:#1F2937;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: light;
-}
-.quote{
-    margin-right: 160px;
-    margin-left: 160px;
-    padding-top: 60px;
-   
-}
-
-.quote-container{
-    text-align: center;
-   
-   
-}
-.writer p{
-    
-    
-    color:black;
-    font-weight: bold;
-    
-   
-    
-    
-}
-
-.writer{
-    text-align: right;
-    padding-right: 400px;
-}
-.left-sign-up h2{
-    margin: 0;
-    padding:0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header-content {
     display: flex;
@@ -161,102 +61,163 @@ button {
     justify-content: space-between;
 }
 
-p {
-    color: #F9FAF8;
+/*..........Info Container.............*/
+.info-container {
+    background-color: white;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 400px;
+}
+
+.info-container h2 {
+    margin-top: 0%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .imageHolder {
     margin-right: 100px;
     height: 300px;
- 
     width: 900px;
-   
-
 }
-.imageHolder img,.info-image img{
+
+.imageHolder img,
+.info-image img {
     max-width: 100%;
     max-height: 100%;
     outline: none;
 }
 
-.box-container{
+.box-container {
     display: flex;
     justify-content: space-around;
-    
     height: 200px;
-  
     align-items: center;
-    gap:60px;
+    gap: 60px;
     margin-left: 80px;
     margin-right: 80px;
     outline: none;
-
 }
-.box{
-   
-    
+
+.box {
     height: 160px;
-    width:160px;
+    width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    border:none;
+    border: none;
     outline: none;
- 
-    
-   
-}
-.info-image{
-    height:160px;
-    width:160px;
-    border:none;
-    outline:none;
-    
 }
 
+.info-image {
+    height: 160px;
+    width: 160px;
+    border: none;
+    outline: none;
+}
 
-
-.image-text{
-    color:black;
+.image-text {
+    color: black;
     max-width: 100%;
     max-height: 100%;
-    
+}
+
+/*...............Quote Container..............*/
+.quote-container {
+    background-color: #E5E7EB;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 300px;
+}
+
+.quote p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote {
+    margin-right: 160px;
+    margin-left: 160px;
+    padding-top: 60px;
+}
+
+.quote-container {
+    text-align: center;
+}
+
+.writer p {
+    color: black;
+    font-weight: bold;
+}
+
+.writer {
+    text-align: right;
+    padding-right: 400px;
+}
+
+/*.............Register Container ............*/
+.register-container {
+    background-color: white;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-sign-up h2 {
+    margin: 0;
+    padding: 0;
 }
 
 
 
-p{
-    margin:0;
-    padding:0;
+p {
+    color: #F9FAF8;
 }
-.sign-up-container{
 
-   background-color:#3882F6;
-   height:120px;
-   width: 800px;
-   border-radius:15px;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding:10px;
-
-
-}
-.left-sign-up h2{
-    color:white;
-
-}
-.right-sign-up button{
+.right-sign-up button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 5px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-weight: 300;
     text-align: center;
-    height:30px;
-    width:120px;
+    height: 30px;
+    width: 120px;
     border-width: thick;
     border-color: white;
     border-style: solid;
 }
 
+.sign-up-container {
+    background-color: #3882F6;
+    height: 120px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-sign-up h2 {
+    color: white;
+}
+
+/*......................Footer...........*/
+.footer {
+    background-color: #1F2936;
+    text-align: center;
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 50px;
+    padding-top: 25px;
+}
