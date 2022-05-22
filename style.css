@@ -49,6 +49,17 @@ body {
    
 
 }
+
+.footer{
+    background-color: #1F2936;
+    text-align: center;
+    margin-right: 160px ;
+    margin-left: 160px;
+    height:50px;
+    padding-top:25px;
+   
+
+}
 .info-container h2{
     margin-top: 0%;
     font-size: 36px;
@@ -240,3 +251,4 @@ p{
     border-color: white;
     border-style: solid;
 }
+
