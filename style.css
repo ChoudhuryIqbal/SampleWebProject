@@ -38,6 +38,17 @@ body {
     margin-left: 160px;
     height: 300px;
 }
+.register-container{
+    background-color:white;
+    margin-right: 160px;
+    margin-left:160px;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
 .info-container h2{
     margin-top: 0%;
     font-size: 36px;
@@ -116,7 +127,10 @@ button {
     text-align: right;
     padding-right: 400px;
 }
-
+.left-sign-up h2{
+    margin: 0;
+    padding:0;
+}
 
 
 
@@ -195,4 +209,34 @@ p {
 p{
     margin:0;
     padding:0;
+}
+.sign-up-container{
+
+   background-color:#3882F6;
+   height:120px;
+   width: 800px;
+   border-radius:15px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding:10px;
+
+
+}
+.left-sign-up h2{
+    color:white;
+
+}
+.right-sign-up button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    box-sizing:border-box;
+    font-weight: 300;
+    text-align: center;
+    height:30px;
+    width:120px;
+    border-width: thick;
+    border-color: white;
+    border-style: solid;
 }
